@@ -4,7 +4,7 @@ Tags： Chrome 谷歌浏览器 CPU占用 解决方法
 
 ---
 
-![CPU占用率突然增加](https://github.com/leehongsen/blog/blob/master/imgCpuUse.png "CPU占用率突然增加")
+![CPU占用率突然增加](https://github.com/leehongsen/blog/blob/master/img/CpuUse.png "CPU占用率突然增加")
 
 前言
 --------------------------------------------------
@@ -35,7 +35,7 @@ Tags： Chrome 谷歌浏览器 CPU占用 解决方法
 > - 直接设置-高级-重置。
 
 我觉得这些都不是最直接有效的，其实可以直接 `shift+esc` 组合键打开谷歌浏览器的任务管理器，并点击CPU排序：
-![任务管理器抓到了现行](https://github.com/leehongsen/blog/blob/master/imgCpuUse.png "任务管理器抓到了现行")
+![任务管理器抓到了现行](https://github.com/leehongsen/blog/blob/master/img/TaskManager.png "任务管理器抓到了现行")
 这个时候可以看到，真正吃我们CPU的东西是什么了，直接点右下角结束进程就可以了。
 我顺手查了一下，这个进程是谷歌浏览器的默认扩展程序，无法关闭，至于该怎么完完全全解决，至今还没有个治本的方法，以后大家遇到这个问题，直接打开任务管理器关闭其中吃CPU最凶的那个进程就可以了。
 
